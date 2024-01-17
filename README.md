@@ -7,13 +7,10 @@ Robovikes uses the Limelight Coprocessor and PhotonVision for robot computer vis
 Here is a standard operating procedure for getting a Limelight using photonvision working for the RoboVikes team.
 
 ### Background
-The Limelight uses its configuration to identify which objects in its image is most likely to be the  target. It then sends this information to the RoboRIO where the main code is running.
-- The Limelight is a raspberry pi compute module with a camera
+
+The Limelight uses its configuration to identify which objects in its image is most likely to be the target. It then sends this information to the RoboRIO where the main code is running.The Limelight is a raspberry pi compute module with a camera
 
 For information about how to install the Limelight software and access the dashboard, visit the [official Limelight documentation](https://docs.Limelightvision.io/en/latest/)
-
-### How the Limelight works
-
 
 
 ### Necessary Equipment
@@ -36,7 +33,7 @@ Robovikes has Limelight v2 and v3
 
 - Download and install Limelight usb drivers (https://limelightvision.io/pages/downloads)
 - Download and install Balena Etcher (https://etcher.balena.io/)
-- Download the latest PhotonVision firmware image here (e.g. `photonvision-v2024.1.2-linuxarm64-image_limelight2.xz`)
+- Download the latest PhotonVision firmware image release [here](https://github.com/PhotonVision/photonvision/releases) (e.g. `photonvision-v2024.1.4-linuxarm64-image_limelight2.xz`)
 - Connect usb cable to Limelight and plug into computer. If it doesn't show up, make sure you have installed the Limelight USB drivers correctly
 - Open BalenaEtcher
 - Flash PhotonVision firmware
